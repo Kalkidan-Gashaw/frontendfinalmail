@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const axiosInstance = axios.create({
-  baseURL: "http://localhost:5174",
+  baseURL: "https://frontendfinalmail.vercel.app",
 });
 
 axiosInstance.interceptors.request.use(
